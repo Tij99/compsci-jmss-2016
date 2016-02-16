@@ -22,7 +22,7 @@ replace_with = "dog"
 for word in words:
     if word == look_for:
         word = replace_with
-    finalword += word + " "
+    finalword += word
 
 print(finalword)
 
